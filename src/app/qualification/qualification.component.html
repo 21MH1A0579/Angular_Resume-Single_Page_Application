@@ -1,0 +1,20 @@
+<h1>QUALIFICATION</h1>
+<table>
+    <thead>
+        <th>QUALIFICATION</th>
+        <th>SCHOOL/COLLEGE</th>
+        <th>BOARD/UNIVERSITY</th>
+        <th>YEAR OF PASSING</th>
+        <th>PERCENTAGE</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of data.educationinfo">
+            <td>{{i.qualification}}</td>
+            <td>{{i.college}}</td>
+            <td>{{i.board |uppercase}}</td>
+            <td>{{i.yearofpassing | uppercase}}</td>
+            <td>{{i.percentage}}</td>
+        </tr>
+    </tbody>
+    
+</table>

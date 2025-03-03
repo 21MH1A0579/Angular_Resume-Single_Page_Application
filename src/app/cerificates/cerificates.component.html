@@ -1,0 +1,13 @@
+<h1>CERTIFICATES</h1>
+<table>
+    <thead>
+        <th>ICON</th>
+        <th>CERIFICATE NAME</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of data.certificates">
+            <td><img src="{{i.src}}"></td>
+         <td>{{i.name}}</td>
+        </tr>
+    </tbody>
+</table>

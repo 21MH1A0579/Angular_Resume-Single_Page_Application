@@ -1,0 +1,41 @@
+/* CSS for the header */
+img{
+    width: fit-content;
+    height: 400px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Adjust color as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Add space below the header */
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* CSS for the table */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add space below the table */
+}
+
+td {
+    padding: 8px 12px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add border to each cell */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+tr:hover {
+    background-color: #ddd; /* Highlight row on hover */
+}
+
+/* CSS for uppercase */
+td:first-child {
+    text-transform: uppercase;
+}

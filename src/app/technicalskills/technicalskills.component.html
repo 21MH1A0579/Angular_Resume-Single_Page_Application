@@ -1,0 +1,15 @@
+<!-- HTML code with IDs added for styling -->
+<div id="technical-skills">
+    <h1>TECHNICAL SKILLS</h1>
+    
+    <h2>LANGUAGES</h2>
+    <ul id="language-list">
+      <li *ngFor="let i of data.skills.languages">{{ i }}</li>
+    </ul>
+    
+    <h2>TECHNOLOGIES</h2>
+    <ul id="technology-list">
+      <li *ngFor="let i of data.skills.technologies">{{ i | uppercase }}</li>
+    </ul>
+  </div>
+  

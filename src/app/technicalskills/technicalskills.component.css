@@ -1,0 +1,42 @@
+/* Style for the technical skills section */
+#technical-skills {
+    margin-top: 20px; /* Add some space above the technical skills section */
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Adjust color as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Add space below the header */
+}
+  /* Style for the language list */
+  #language-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  #language-list li {
+    margin-bottom: 5px; /* Add space between each language */
+    background-color: #f2f2f2; /* Light gray background color */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  /* Style for the technology list */
+  #technology-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  #technology-list li {
+    margin-bottom: 5px; /* Add space between each technology */
+    background-color: #e0f7fa; /* Light blue background color */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  /* Additional styling for uppercase technologies */
+  #technology-list li {
+    text-transform: uppercase; /* Convert text to uppercase */
+  }
+  
