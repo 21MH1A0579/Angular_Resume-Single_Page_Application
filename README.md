@@ -1,27 +1,55 @@
-# Resume
+# Resume Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+## Overview
+This project is a Single Page Application (SPA) built using Angular. It serves as a personal resume showcasing various sections such as personal information, educational qualifications, technical skills, and certificates.
 
-## Development server
+## Features
+- **Single Page Application (SPA)**: The application loads a single HTML page and dynamically updates the content as the user navigates through different sections without refreshing the page.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Components
+The application consists of the following components:
 
-## Code scaffolding
+1. **AppComponent**: The root component that serves as the entry point for the application.
+2. **PersonalinfoComponent**: Displays personal information such as name, contact details, and address.
+3. **QualificationComponent**: Shows educational qualifications including school/college details and percentages.
+4. **TechnicalskillsComponent**: Lists technical skills categorized into languages and technologies.
+5. **CerificatesComponent**: Displays certificates earned with icons.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Services
+- **DataService**: A service that provides data for personal information, educational qualifications, technical skills, and certificates. It acts as a centralized data source for the components.
 
-## Build
+## Routes
+The application uses the following routes to navigate between different components:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- `/person`: Displays the **PersonalinfoComponent**.
+- `/qualif`: Displays the **QualificationComponent**.
+- `/skills`: Displays the **TechnicalskillsComponent**.
+- `/cert`: Displays the **CerificatesComponent**.
 
-## Running unit tests
+## Installation
+To run the application locally, follow these steps:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
 
-## Running end-to-end tests
+2. Navigate to the project directory:
+   ```bash
+   cd <project-directory>
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-## Further help
+4. Start the application:
+   ```bash
+   ng serve
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+5. Open your browser and navigate to `http://localhost:4200`.
+
+## Conclusion
+This SPA provides a comprehensive view of a resume, allowing users to easily navigate through different sections. The use of Angular components and services ensures a modular and maintainable codebase.
